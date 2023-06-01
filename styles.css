@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+.section {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tariff-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .tariff-card {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  .tariff-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .tariff-card p {
+    margin-bottom: 10px;
+  }
+
+  .tariff-card a {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .tariff-card a:hover {
+    background-color: #555;
+  }
+
+  .section-contact {
+    color: #fff;
+  }
+
+  .add {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .add a:hover {
+    background-color: #555;
+  }
+
+.course-card {
+  text-align: center;
+}
+
+.start {
+  color: #fff;
+}
